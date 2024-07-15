@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #9fceda;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #3892b6;
+    color: rgb(245, 239, 239);
+    border: none;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: #375f72;
+}
+
+#weather, #forecast, #hourly {
+    margin-top: 10px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 400px;
+    background-color: white;
+       
+}
+
+#weather{
+    background-color: rgb(138, 165, 165);
+    text-align: center;
+}
+
+#forecast {
+    background-color: rgba(79, 175, 192, 0.603);     
+}
+
+#hourly {
+    background-color: rgb(135, 148, 156);     
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #221f1f;
+    text-align: center;
+}
+
+h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.forecast-day, .forecast-hour {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.forecast-day img, .forecast-hour img {
+    width: 50px;
+    height: 50px;
+}
